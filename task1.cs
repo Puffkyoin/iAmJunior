@@ -4,6 +4,6 @@
     {
        static void Main(string[] args)
     {
-        //Console.WriteLine("Я Юниор!")
+        Console.WriteLine("Я Юниор!")
     }
 }

@@ -9,7 +9,7 @@ class Program
         byte enemyLevel = 10;
         uint attack = 100;
         float enemySpeed = 4.5f;
-        bool isEdeble = true;
+        bool isEdible = true;
         ulong battleCounter = 10000;
         decimal nutritionalValue = 122254.451m;
         long bodyTemperature = 7;

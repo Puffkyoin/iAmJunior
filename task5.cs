@@ -4,12 +4,12 @@ class Program
 {
     static void Main(string[] args)
     {
-        int x = 10;
-        int y = 20;
-        Console.WriteLine($"Старые значения:\n x = {x}\n y = {y}");
-        int temp = x;
-        x = y;
-        y = temp;
-        Console.WriteLine($"Новые значения:\n x = {x}\n y = {y}");
+        int firstVariable = 10;
+        int secondVariable = 20;
+        Console.WriteLine($"Старые значения:\n первая переменная = {firstVariable}\n вторая переменная = {secondVariable}");
+        int temp = firstVariable;
+        firstVariable = secondVariable;
+        secondVariable = temp;
+        Console.WriteLine($"Новые значения:\n первая переменная = {firstVariable}\n вторая переменная = {secondVariable}");
     }
 }   

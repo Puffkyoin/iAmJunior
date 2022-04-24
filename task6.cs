@@ -6,8 +6,8 @@ class Program
     {
         int photosInAlbum = 52;
         int photosInRow = 3;
-        int rowsFilled = photosInAlbum / photosInRow;
+        int filledRows = photosInAlbum / photosInRow;
         int remainderPhotos = photosInAlbum % photosInRow;
-        Console.WriteLine($" Заполнено {rowsFilled} строк.\n Остаток фото равен {remainderPhotos}.");
+        Console.WriteLine($" Заполнено {filledRows} строк.\n Остаток фото равен {remainderPhotos}.");
     }
 }   

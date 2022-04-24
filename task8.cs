@@ -9,7 +9,7 @@ class Program
         int waitTimeInOnePoeple = 10;
         int perHourMinutes = 60;
         int totalHoursWait = peopleAhead * waitTimeInOnePoeple/perHourMinutes;
-        int totalMinutesWait = peopleAhead * waitTime % perHourMinutes;
+        int totalMinutesWait = peopleAhead * waitTimeInOnePoeple % perHourMinutes;
         Console.WriteLine($"Вы должны отстоять в очереди {totalHoursWait} час(а) и {totalMinutesWait} минут(ы)");
     }
 }   
